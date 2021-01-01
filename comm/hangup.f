@@ -1,0 +1,7 @@
+       SUBROUTINE HANGUP
+       IMPLICIT NONE
+       INCLUDE 'mpif.h'
+       INTEGER IERR
+       CALL MPI_FINALIZE(IERR)
+       RETURN
+       END

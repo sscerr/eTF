@@ -1,0 +1,6 @@
+
+       SUBROUTINE SYNCRONIZE 
+       IMPLICIT NONE
+       INTEGER IERR
+       RETURN 
+       END 

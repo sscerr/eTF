@@ -1,0 +1,6 @@
+#!/bin/sh
+for i in $*
+do
+  cat $i | tr -d '\r' > ./rmcr.dum
+  cp ./rmcr.dum $i
+done

@@ -1,0 +1,10 @@
+##---------------------------------------
+# This three lines for SuperMuc / Perseus
+#----------------------------------------
+LIB=
+FFLAGS= -O3 -c -I modules
+F90FLAGS= -O3 -c -I modules
+LNKFLAGS= 
+F77= mpif90
+F90= mpif90
+LNK= mpif90

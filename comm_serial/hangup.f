@@ -1,0 +1,5 @@
+       SUBROUTINE HANGUP
+       IMPLICIT NONE
+       INTEGER IERR
+       RETURN
+       END
